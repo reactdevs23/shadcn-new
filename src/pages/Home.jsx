@@ -156,7 +156,7 @@ const Home = () => {
         />
       </div>
       <div className=" flex flex-col gap-1 ">
-        <div className="flex justify-between items-center w-full">
+        <div className="flex gap-2 justify-between items-center w-full">
           <Label htmlFor="message-2">Address and amount</Label>{" "}
           <div>
             <Input
@@ -181,7 +181,7 @@ const Home = () => {
           placeholder="Insert your address and amount separate by comma"
           id="message-2"
         />{" "}
-        <div className="flex justify-between items-center w-full">
+        <div className="flex gap-2 justify-between items-center w-full">
           {" "}
           <p className="text-sm text-muted-foreground">Separeted by commas</p>
           <a
